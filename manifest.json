@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "ERP Resume Deadline Filter",
+  "version": "1.0",
+  "description": "Filters out companies based on resume upload deadline and CGPA eligibility.",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://erp.iitkgp.ac.in/*"
+      ],
+      "js": ["content.js"],
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_title": "Filter Companies",
+    "default_icon": "icon.png"
+  }
+}
