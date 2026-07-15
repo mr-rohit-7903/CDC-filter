@@ -1,4 +1,4 @@
-# CDC ERP Placement Filter
+# CDC ERP Filter
 
 A modern, fast, and secure browser extension for the IIT Kharagpur ERP portal. This extension automatically optimizes your placement/internship dashboard by filtering out expired companies and checking CGPA eligibility in the background.
 
